@@ -1,0 +1,40 @@
+{
+  "productos": [
+    {
+      "id": "dc01",
+      "nombre": "Squrtle",
+      "precio": "20000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_2X_700712-MLM45754815812_042021-F.webp"
+    },
+    {
+      "id": "3b2b",
+      "nombre": "Charmander",
+      "precio": "20000",
+      "imagen": "https://toogeek.co/wp-content/uploads/2020/07/889698376037.jpeg"
+    },
+    {
+      "id": "0b35",
+      "nombre": "Bulbasaur",
+      "precio": "50000",
+      "imagen": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MP_99288340?x=536&y=402&format=jpg&quality=80&sp=yes&strip=yes&trim&ex=536&ey=402&align=center&resizesource&unsharp=1.5x1+0.7+0.02&cox=0&coy=0&cdx=536&cdy=402"
+    },
+    {
+      "id": "190a",
+      "nombre": "Charizard",
+      "precio": "60000",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_970891-MCO48985034621_012022-O.webp"
+    },
+    {
+      "id": "ccd3",
+      "nombre": "Evee",
+      "precio": "30000",
+      "imagen": "https://i.pinimg.com/originals/41/20/b8/4120b8e60237c56a2199b2a8dfaa4897.jpg"
+    },
+    {
+      "id": "b365",
+      "nombre": "Ash",
+      "precio": "60000",
+      "imagen": "https://i.pinimg.com/originals/43/14/20/431420fe639aa18f82fc75410e137ea7.jpg"
+    }
+  ]
+}

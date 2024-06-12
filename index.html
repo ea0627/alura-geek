@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6c55160055.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/normalize.css"/>
+    <link rel="stylesheet" href="style/header.css"/>
+    <link rel="stylesheet" href="style/main.css"/>
+    <link rel="stylesheet" href="style/footer.css"/>
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header class="header">
+        <img class="img" src="img/image.png">
+        <h1 class="titulo">AluraGeek</h1>
+    </header>
+    <main class="main-container">
+        <section class="agregar">
+            <h2>AGREGAR PRODUCTO:</h2>
+            <form class="form-container" data-form>
+                <input data-name placeholder="nombre..." type="text">
+                <input data-price placeholder="precio..." type="text">
+                <input data-image placeholder="imagen..." type="text">
+                <div class="button-container">
+                    <button type="submit" class="button-submit" id="button">Enviar</button>
+                    <button type="reset" class="button-clear" id="button">Limpiar</button>
+                </div>
+            </form>
+        </section>         
+        <section class="productos">
+            <h1>MIS PRODUCTOS:</h1>
+            <div class="productos-container">
+                <div data-product class="products-container"> <!-- data lista -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <div class="card-footer">
+            <img class="img" src="img/image.png">
+            <h1 class="titulo_footer">AluraGeek</h1>
+        </div>
+        <div class="card-footer-2">
+            <p>Desarrollado por Eduardo Amaya<br>ALURA LATAM - 2024</p>
+        </div>
+    </footer>
+    <!-- <script src="./js/conexionAPI.js"></script> -->
+    <script src="./js/mostrarProductos.js" type="module"></script>
+    <script src="./js/crearProductos.js" type="module"></script>
+</body>
+</html>

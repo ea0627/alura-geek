@@ -1,0 +1,28 @@
+.header{
+    background-color: #5300C8;
+    color:#E5E5E5;
+    /* width: 430px; */
+    height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    font-family: "Press Start 2P", system-ui;
+    font-size: 24px;
+    font-style: normal;
+}
+
+.img{
+    width: 150px;
+    height: 130px;
+}
+
+.titulo{
+    font-size: 24px;
+}
+
+@media (min-width: 834px){ 
+    .header{
+        width: 100%;
+        padding: 20px 0px 20px 0px;
+    }
+}
